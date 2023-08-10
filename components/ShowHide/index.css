@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(#fa7257, #fc63a7);
+  height: 100vh;
+}
+.heading {
+  color: white;
+}
+.buttons-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.button {
+  height: 36px;
+  width: 180px;
+  border-radius: 10px;
+  color: #dd1264;
+  font-weight: 600;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.name {
+  background-color: white;
+  color: #dd1264;
+  font-weight: 500;
+  border-radius: 12px;
+  padding: 30px;
+  margin: 15px;
+}
